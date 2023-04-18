@@ -13,12 +13,14 @@
         <!-- Navbar -->
         <nav>
           <div>
-            <h1>
+            <h1
+              class="font-bold text-2xl text-blue-400 sm:text-green-500 uppercase p-4"
+            >
               <a href="/">BUBUN STORE</a>
             </h1>
           </div>
-          <ul>
-            <li>
+          <ul class="">
+            <li class="text-gray-700 font-bold">
               <a href="#">
                 <span>Home</span>
               </a>
@@ -42,40 +44,44 @@
         </nav>
         <!-- End Navbar -->
       </div>
-      <main>
-        <div>
-          <a href="#">Log In</a>
+        <div
+          class="text-blue-600/75 font-bold flex justify-end sm:justify-center"
+        >
+          <a class="px-3" href="#">Log In</a>
           <a href="#">Sign Up</a>
         </div>
 
         <header>
-          <h2>Recipes</h2>
-          <h3>For Rahmadee</h3>
+          <h2 class="text-3xl to-gray-600 font-semibold">Recipes</h2>
+          <h3 class="text-2xl to-gray-500 font-semibold">For Rahmadee</h3>
         </header>
-
         <div>
-          <h4>Latest Recipes</h4>
-
-          <div>
-            <div>
+          <h4 class="mt-8 font-bold pb-5 border-b border-gray-300">
+            Latest Recipes
+          </h4>
+      <main class="px-16 py-6 bg-gray-100">
+        <div class="mt-8 ">
+            <div class="bg-white overflow-hidden rounded-2xl shadow-md">
               <img src="assets/img/image1.jpg" alt="" />
-              <div>
-                <span>5 bean chili stew</span>
-                <span>Recipe by mario</span>
+              <div class="px-3 py-3">
+                <span class="font-semibold">5 bean chili stew</span>
+                <span class="block text-gray-500" >Recipe by mario</span>
               </div>
             </div>
           </div>
 
-          <h4>Most Popular</h4>
-          <div>
+          <h4 class="mt-8 font-bold pb-5 border-b border-gray-300">
+            Most Popular
+          </h4>
+          <div class="mt-8">
             <div>
-              <img src="assets/img/image2.jpg" alt="" />
+              <img class="rounded-xl" src="assets/img/image2.jpg" alt="" />
               <div>
                 <span>5 bean chili stew</span>
                 <span>Recipe by mario</span>
               </div>
             </div>
-            <div>
+            <div class="flex justify-center">
               <div>Load More</div>
             </div>
           </div>
